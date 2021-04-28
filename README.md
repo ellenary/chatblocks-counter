@@ -20,7 +20,7 @@ Put the above into your bin. "counter" is the name of the JSON key and 0 is the 
 ### CUSTOMIZATION
 #### Multiple Counters
 If you have multiple counters, then you need to make a key for each of them in your bin. E.g. {"counter":0,"counter2":0,"counter3":0}
-!(/ellenary_multiple_counters.png)
+
 #### **COMMON BUG: NON-NUMERIC**
 If you put quotations around 0 it won't read it as a number. 
 #### **COMMON BUG: IT WON'T COUNT BEYOND NaN!**
@@ -67,7 +67,7 @@ The check counter command can be modified to !check and check the chat message f
 #### Example
 In Micromuffin's channel, she can check how many times she's died in a game as well as many times she's sworn by using the !check command. You'd simply use if/else statements to "check if chat message contains ah", "check if chat message contains death", etc to set it up this way. Then you would have it get the value at the corresponding key for each counter. e.g. **!check ah** will check the "ah" key for her swear jar, **!check death** will check the "death" key for her death counter.
 ### Multiple Commands Can Point to One Counter
-!(/ellenary_multiple_commands_one_counter.png)
+
 You can use multiple commands that point to the same counter. You just need to make separate commands that point to the same JSON key. Duplicate the blocks exactly as they are and give them a new command.
 #### **COMMON BUG** 
 For some reason you cannot put the "guts" of the counter in a function. I have tried removing the permissions to see if that'd help but it doesn't. So if you use multiple commands for one counter then you'll need to repeat those blocks.
