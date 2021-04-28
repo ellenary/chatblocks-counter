@@ -9,10 +9,15 @@ ellenary_multiple_commands_one_counter.cbs shows how to use multiple commands fo
 ### Multiple Counters
 ellenary_multiple_counters.cbs shows how to use chatblocks to create multiple counters.
 ## IMPORTANT: INITIAL SET UP
+Create your storage bin and put its URL in the "counterBinURL" block area. I made my bin at https://www.npoint.io/ 
+You take the npoint.io/docs/string-of-letters-and-numbers and put the the letters and numbers at the end of https://api.npoint.io/ 
+
+Keep that link secret for only you and trusted mods to keep people from deleting it.
+
 ### COMMON SET UP BUGS
-If you don't put in a bin then it won't work. If it's locked then it won't work. If it's private then it won't work. It needs to be public so that ChatBlocks has access to editing it for you. This makes your counter vulnerable to being hacked / deleted, so keep your bin private to only you and trusted mods! 
+If you don't put in a bin then it won't work. If it's locked then it won't work. If it's private then it won't work. It needs to be public so that ChatBlocks has access to editing it for you. This is what makes your counter vulnerable to being hacked / deleted, so keep your bin private to only you and trusted mods! 
 ### SET UP CUSTOMIZATION
-The counterNumericURL bin is locked so that it can't be broken. If you change the numeric bin to something lighter or more robust, that's up to you! The default is set to 100 since there have been instances where Twitch was being wonky so we streamed on Discord and needed to add 90 swears at the end of a stream. I don't think with average swear usage you'll need more than 1-15, really.
+The counterNumericURL bin is locked so that it can't be broken/deleted. If you change the numeric bin to something lighter or more robust, that's up to you! The default is set to 100 since there have been instances where Twitch was being wonky so we streamed on Discord and needed to add 90 swears at the end of a stream. I don't think with average swear usage you'll need more than 1-15, really.
 ## IMPORTANT: WHAT GOES IN YOUR BIN
 >{"counter":0}
 
@@ -78,4 +83,4 @@ EverydaygamerM has a Cyrillic command for a mod who frequently switch between En
 ## Contact
 You can continue to make this block more and more complicated as you wish. Instafluff has made something truly special with ChatBlocks. If you need help, please feel free to ping me **@ellenary#6457** in Instafluff's #chatblocks channel on Discord (Time zone: MST, GMT/UTC-7 year round no DST). Frankly, others there may be able to help you better than I could!
 ## Thank You
-The ChatBlocks Counter has been an ongoing labor of love from August 2020 to April 2021. I would like to say thanks to **Instafluff** for making ChatBlocks, Kari (**Micromuffin**) for inspiring the subtraction feature, Alec (**Gemini_24**) for inspiring condensing the blocks down since the original multiple counter featuered hundreds of blocks, Mon (**EverydayGamerM**) for inspiring the counter and its ability to have multiple commands on one counter, **InformaTheMusic** for helping me figure out how to use the JSON blocks and work out initial counter bugs, and **JupiterZky** for inspiring the method that finally worked for counting multiple things. Without them this counter would not exist or have the functionality it does.
+The ChatBlocks Counter has been an ongoing labor of love from August 2020 to April 2021. I would like to say thanks to **Instafluff** for making ChatBlocks, Kari (**Micromuffin**) for inspiring the subtraction feature, Alec (**Gemini_24**) for inspiring condensing the blocks down since the original multiple counter featured hundreds of blocks, Mon (**EverydayGamerM**) for inspiring the counter and its ability to have multiple commands on one counter, **InformaTheMusic** for helping me figure out how to use the JSON blocks and work out initial counter bugs, and **JupiterZky** for inspiring the method that finally worked for counting multiple things. Without them this counter would not exist or have the functionality it does.
