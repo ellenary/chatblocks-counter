@@ -16,6 +16,7 @@ Keep that link secret for only you and trusted mods to keep people from deleting
 
 ### COMMON SET UP BUGS
 If you don't put in a bin then it won't work. If it's locked then it won't work. If it's private then it won't work. It needs to be public so that ChatBlocks has access to editing it for you. This is what makes your counter vulnerable to being hacked / deleted, so keep your bin private to only you and trusted mods! 
+**If your counter keeps resetting to zero, then it might mean that you logged in to make your bin. Log out, make the bin completely public or ChatBlocks doesn't have access.**
 ### SET UP CUSTOMIZATION
 The counterNumericURL bin is locked so that it can't be broken/deleted. If you change the numeric bin to something lighter or more robust, that's up to you! The default is set to 100 since there have been instances where Twitch was being wonky so we streamed on Discord and needed to add 90 swears at the end of a stream. I don't think with average swear usage you'll need more than 1-15, really.
 ## IMPORTANT: WHAT GOES IN YOUR BIN
