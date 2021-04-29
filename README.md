@@ -20,12 +20,12 @@ If you don't put in a bin then it won't work. If it's locked then it won't work.
 ### SET UP CUSTOMIZATION
 The counterNumericURL bin is locked so that it can't be broken/deleted. If you change the numeric bin to something lighter or more robust, that's up to you! The default is set to 100 since there have been instances where Twitch was being wonky so we streamed on Discord and needed to add 90 swears at the end of a stream. I don't think with average swear usage you'll need more than 1-15, really.
 ## IMPORTANT: WHAT GOES IN YOUR BIN
->{"counter":0}
+>{"counter1":0}
 
 Put the above into your bin. "counter" is the name of the JSON key and 0 is the count.
 ### CUSTOMIZATION
 #### Multiple Counters
-If you have multiple counters, then you need to make a key for each of them in your bin. E.g. {"counter":0,"counter2":0,"counter3":0}
+If you have multiple counters, then you need to make a key for each of them in your bin. E.g. {"counter1":0,"counter2":0,"counter3":0}
 
 #### **COMMON BUG: NON-NUMERIC**
 If you put quotations around 0 it won't read it as a number. 
