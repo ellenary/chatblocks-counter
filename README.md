@@ -32,13 +32,10 @@ If you put quotations around 0 it won't read it as a number.
 #### **COMMON BUG: IT WON'T COUNT BEYOND NaN!**
 *"We've counted NaN things!"* 
 
+If you do not set your bin to 0, then it'll set to null and it won't count. If you already have a counter, then you can set it to what your old counter's total was.
 #### **COMMON BUG: IT KEEPS RESETING TO 0**
 If you logged in to make your bin, then it won't be able to save. You'll need to log out before making your bin. 
 
-#### **COMMON BUG: IT WON'T COUNT BEYOND NaN!**
-*"We've counted NaN things!"* 
-
-If you do not set your bin to 0, then it'll set to null and it won't count. If you already have a counter, then you can set it to what your old counter's total was.
 ## EXAMPLE USAGE
 >**!counter**
 >Default command. Adds one item to the total count.
