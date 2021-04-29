@@ -1,6 +1,8 @@
 # ChatBlocks Counter by Ellenary
 ## README
-ChatBlocks Counter is a ChatBlock that adds a command to count swears (or other items) using Instafluff's ChatBlocks. It can count single items, multiple items, and even subtract items using one command. There is an additional optional command to check the counter without adding to it. It looks scary if you're not a programmer, but I promise it's really not that bad! I'm not a programmer and I made it (with the help of many lovely people mentioned in the thank you portion of this readme!)
+ChatBlocks Counter is a ChatBlock that adds a command to count swears (or other items) using Instafluff's ChatBlocks. (https://www.instafluff.tv/ChatBlocks/)
+
+It can count single items, multiple items, and even subtract items using one command. There is an additional optional command to check the counter without adding to it. It looks scary if you're not a programmer, but I promise it's really not that bad! I'm not a programmer and I made it (with the help of many lovely people mentioned in the thank you portion of this readme!)
 ## Example Files
 ### Basic Counter
 ellenary_counter_basic.cbs shows a basic counter. 
