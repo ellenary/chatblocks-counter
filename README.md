@@ -86,7 +86,5 @@ For some reason you cannot put the "guts" of the counter in a function. I have t
 #### Example of custom command usage
 EverydaygamerM has a Cyrillic command for a mod who frequently switch between English and Russian on their keyboard and might forget to switch back to English before using the command.
 
-## Contact
-You can continue to make this block more and more complicated as you wish. Instafluff has made something truly special with ChatBlocks. If you need help, please feel free to ping me **@ellenary#6457** in Instafluff's #chatblocks channel on Discord (Time zone: MST, GMT/UTC-7 year round no DST). Frankly, others there may be able to help you better than I could!
 ## Thank You
 The ChatBlocks Counter has been an ongoing labor of love from August 2020 to April 2021. I would like to say thanks to **Instafluff** for making ChatBlocks, Kari (**Micromuffin**) for inspiring the subtraction feature, Alec (**Gemini_24**) for inspiring condensing the blocks down since the original multiple counter featured hundreds of blocks, **InformaTheMusic** for helping me figure out how to use the JSON blocks and work out initial counter bugs, and **JupiterZky** for inspiring the method that finally worked for counting multiple things. Without them this counter would not exist or have the functionality it does.
