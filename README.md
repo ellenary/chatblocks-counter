@@ -1,6 +1,6 @@
 # ChatBlocks Counter by Ellenary
 ## README
-ChatBlocks Counter is a ChatBlock that adds a command to count swears (or other items) using Instafluff's ChatBlocks. (https://www.instafluff.tv/ChatBlocks/)
+ChatBlocks Counter is a ChatBlock that adds a command to count swears (or other things like counting deaths in a game) using Instafluff's ChatBlocks. (https://www.instafluff.tv/ChatBlocks/)
 
 It can count single items, multiple items, and even subtract items using one command. There is an additional optional command to check the counter without adding to it. It looks scary if you're not a programmer, but I promise it's really not that bad! I'm not a programmer and I made it (with the help of many lovely people mentioned in the thank you portion of this readme!)
 ## Example Files
@@ -76,15 +76,12 @@ Really lame command name, but it's a small block that allows you to check the co
 ### Customizing !checkcount
 The check counter command can be modified to !check and check the chat message for the name of the command you want so that you have one command to check all the counters you may be using.
 #### Example
-In Micromuffin's channel, she can check how many times she's died in a game as well as many times she's sworn by using the !check command. You'd simply use if/else statements to "check if chat message contains ah", "check if chat message contains death", etc to set it up this way. Then you would have it get the value at the corresponding key for each counter. e.g. **!check ah** will check the "ah" key for her swear jar, **!check death** will check the "death" key for her death counter.
+In Karimicro's channel, she can check how many times she's died in a game as well as many times she's sworn by using the !check command. You'd simply use if/else statements to "check if chat message contains ah", "check if chat message contains death", etc to set it up this way. Then you would have it get the value at the corresponding key for each counter. e.g. **!check ah** will check the "ah" key for her swear jar, **!check death** will check the "death" key for her death counter.
 ### Multiple Commands Can Point to One Counter
 
 You can use multiple commands that point to the same counter. You just need to make separate commands that point to the same JSON key. Duplicate the blocks exactly as they are and give them a new command.
 #### **COMMON BUG** 
 For some reason you cannot put the "guts" of the counter in a function. I have tried removing the permissions to see if that'd help but it doesn't. So if you use multiple commands for one counter then you'll need to repeat those blocks.
 
-#### Example of custom command usage
-EverydaygamerM has a Cyrillic command for a mod who frequently switch between English and Russian on their keyboard and might forget to switch back to English before using the command.
-
 ## Thank You
-The ChatBlocks Counter has been an ongoing labor of love from August 2020 to April 2021. I would like to say thanks to **Instafluff** for making ChatBlocks, Kari (**Micromuffin**) for inspiring the subtraction feature, Alec (**Gemini_24**) for inspiring condensing the blocks down since the original multiple counter featured hundreds of blocks, **InformaTheMusic** for helping me figure out how to use the JSON blocks and work out initial counter bugs, and **JupiterZky** for inspiring the method that finally worked for counting multiple things. Without them this counter would not exist or have the functionality it does.
+The ChatBlocks Counter has been an ongoing labor of love from August 2020 to April 2021. I would like to say thanks to **Instafluff** for making ChatBlocks, Kari (**KariMicro**) for inspiring the subtraction feature, Alec (**Gemini_24**) for inspiring condensing the blocks down since the original multiple counter featured hundreds of blocks, **InformaTheMusic** for helping me figure out how to use the JSON blocks and work out initial counter bugs, and **JupiterZky** for inspiring the method that finally worked for counting multiple things. Without them this counter would not exist or have the functionality it does.
